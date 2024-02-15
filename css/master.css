@@ -1,4 +1,4 @@
-body {
-    width: 50%;
-    height: 50%;
+:root {
+    --size-xs:130px;
+    --color1-orange: #ff914d;
 }
