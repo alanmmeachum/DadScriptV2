@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: var(--color2-dark);
 }
 
@@ -17,8 +17,8 @@
 
 .header__bars {
     color: var(--color3-text);
-    width: var(--size-2xl);
-    height: var(--size-2xl);
+    width: var(--size-3xl);
+    height: var(--size-3xl);
     display: block;
 }
 /* xs */
