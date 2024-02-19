@@ -9,6 +9,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: var(--color2-dark);
+    width: 100%;
     position: relative;
     z-index: 9999;
 }
@@ -58,7 +59,7 @@
         align-items: center;
         list-style: none;
         padding: 0;
-        gap: 1.5em;
+        gap: 1.3em;
     }
     
     .header__link {
