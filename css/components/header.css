@@ -70,6 +70,9 @@
         font-weight: 600;
         transition: color 0.3s;
     }
+    .btn {
+        font-size: var(--size-xl);
+    }
 
     .header__link:hover {
         color: var(--color1-orange);
@@ -82,10 +85,42 @@
 }
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .logo {
+        width: var(--image-size-2xl);
+    }
+
+    .btn {
+        font-size: var(--size-2xl);
+    }
+
+    .header__link {
+        font-size: var(--size-2xl);
+    }
+}
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .logo {
+        width: var(--image-size-3xl);
+    }
+
+    .btn {
+        font-size: var(--size-3xl);
+    }
+
+    .header__link {
+        font-size: var(--size-4xl);
+    }
+
+    .header__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+    }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
