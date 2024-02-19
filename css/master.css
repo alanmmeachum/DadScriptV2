@@ -30,7 +30,9 @@
     --size-9xl: 8rem;
     --size-10xl: 10rem;
 }
-*{
+*,
+::before,
+::after {
     margin: 0;
     line-height: calc(1em + 0.5rem);
     box-sizing: border-box;

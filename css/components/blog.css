@@ -8,7 +8,6 @@
     color: var(--color1-orange);
     font-weight: 600;
     font-size: var(--size-2xl);
-    position: relative;
 }
 .blog-header__border {
     display: block;
