@@ -24,15 +24,33 @@
     display: block;
 }
 /* xs */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {
+    .logo {
+        width: var(--image-size-m);
+    }
+    .header__bars {
+        color: var(--color3-text);
+        width: var(--size-4xl);
+        height: var(--size-4xl);
+    }
+}
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+    .logo {
+        width: var(--image-size-l);
+    }
+    .header__bars {
+        color: var(--color3-text);
+        width: var(--size-5xl);
+        height: var(--size-5xl);
+    }
+}
 
 /* md */
 @media (min-width: 768px) {
     .logo {
-        width: var(--image-size-l);
+        width: var(--image-size-xl);
     }
 
     .header__menu {

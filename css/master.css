@@ -33,7 +33,7 @@
 *,
 ::before,
 ::after {
-    background-color: rgba(0, 0, 0, 0.84);
+    background-color: rgba(0, 0, 0, 0.919);
     margin: 0;
     line-height: calc(1em + 0.5rem);
     box-sizing: border-box;
