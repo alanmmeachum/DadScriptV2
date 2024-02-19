@@ -1,0 +1,26 @@
+.blog__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: var(--color1-orange);
+    font-weight: 600;
+    font-size: var(--size-2xl);
+    position: relative;
+}
+.blog-header__border {
+    display: block;
+    justify-content: center;
+    border-top: 1px solid white;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 50%;
+}
+
+p {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

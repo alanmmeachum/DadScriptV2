@@ -10,7 +10,7 @@
     --color1-orange: #ff914d;
     --color2-dark: black;
     --color3-text: white;
-    --color4-header: #f8fafc;
+    --color4-background: rgba(0, 0, 0, 0.907);
     /* Orange - rgb(255,145,77) */
 
     /* sizes */
@@ -30,10 +30,7 @@
     --size-9xl: 8rem;
     --size-10xl: 10rem;
 }
-*,
-::before,
-::after {
-    background-color: rgba(0, 0, 0, 0.919);
+*{
     margin: 0;
     line-height: calc(1em + 0.5rem);
     box-sizing: border-box;
@@ -42,6 +39,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--color4-background);
 }
 
 img,
